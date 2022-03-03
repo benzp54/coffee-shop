@@ -36,7 +36,7 @@ ul {
     display: inline-block;
     vertical-align: middle;
 }
-.nav__icon {
+.icon__small {
     min-width: 50px;
     max-width: 120px;
 }
@@ -62,4 +62,39 @@ ul {
 }
 .nav__link--highlight {
     color:#5BACC3
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff0ed;
+    padding: 60px;
+}
+.footer__card {
+    position: relative;
+    text-align: left;
+    min-width: 20%;
+}
+.footer__text {
+    padding-left: 20px;
+}
+.footer__icon {
+    width: 20%;
+    margin-top: 10px;
+}
+.days-open {
+    font-weight: bold;
+}
+.footer__deco--left {
+    position: absolute;
+    left: -80px;
+    top: -40px;
+    width: 40%;
+    opacity: 20%
+}
+.footer__deco--right {
+    position: absolute;
+    right: -100px;
+    bottom: -60px;
+    width: 40%;
+    opacity: 25%
 }

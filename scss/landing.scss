@@ -85,13 +85,12 @@ h3 {
     align-items: center;
     background-color: #fff0ed;
     width: 100%;
-    padding: 20px 0;
     margin-top: 20px;
 }
 .card__subtext {
     text-align: left;
-    margin: 0;
     padding-left: 20px;
+    margin: 0;
 }
 .card__price {
     color: #5BACC3;
@@ -113,8 +112,6 @@ h3 {
 }
 .discount__icon {
     width: 10%;
-    min-width: 50px;
-    max-width: 120px;
 }
 .discount__img {
     position: relative;
@@ -149,18 +146,4 @@ h3 {
 }
 .discount-code {
     font-weight: 700;
-}
-.footer-container {
-    background-color: #fff0ed;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 40px;
-}
-.footer-card {
-    display:inline-block;
-    text-align: left;
-    margin: 0 40px;
-}
-.days-open {
-    font-weight: bold;
 }
