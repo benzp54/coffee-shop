@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benz Phaisaltantiwongs">
+    <meta name="description" content="Coffee Shop Exercise Sections 1-12">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Coffee Shop - Home</title>
+    <link rel="stylesheet" href="./scss/landing.css">
+</head>
+<body>
+    <header>
+        <!--Primary Navigation-->
+        <nav class="nav__primary">
+            <div class="nav__nitro">
+                <a class="nav__logo" href="./index.html">
+                <img class="nav__icon" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee-bean-logo">
+                </a>
+                <span class="nav__container">nitro</span>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="index.html">ABOUT</a></li>
+                <li class="nav__item"><a class="nav__link" href="./pages/menu.html">MENU</a></li>
+                <li class="nav__item"><a class="nav__link nav__link--highlight" href="./pages/menu.html">SHOP NOW</a></li>
+            </ul>
+        </nav>
+        <!--Coffee Cover-->
+        <section class="coffee-cover">
+        <div class="coffee-container">
+            <h1>Nitro Coffee</h1>
+            <p class="">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+            <a class="button__link" href="./pages/menu.html"><div class="button__border"></div>SHOP NOW</a>
+        </div>
+        <div class="coffee-image">
+            <img class="coffeebag-large" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+        </div>
+        </section>
+    </header>
+    <main>
+        <!--Section: Products-->
+        <!--Product Cards-->
+        <section class="product__section">
+            <h2>Our Products</h2>
+            <div class="product__container">
+                <div class="product__card">
+                    <img class="card__image" src="./assets/images/coffeebeans.png" alt="coffee beans">
+                    <div class="card__flex">
+                        <div>
+                            <h3>Coffee Beans</h3>
+                            <p class="card__subtext">Pack of 3</p>
+                        </div>
+                        <div>
+                            <p class="card__price">$19</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <img class="card__image" src="./assets/images/coldbrew.png" alt="cold brew">
+                    <div class="card__flex">
+                        <div>
+                            <h3>Cold Brew</h3>
+                            <p class="card__subtext">1 can</p>
+                        </div>
+                        <div>
+                            <p class="card__price">$5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <img class="card__image" src="./assets/images/inhousebrew.png" alt="in-house brew">
+                    <div class="card__flex">
+                        <div>
+                            <h3>In-house Brew</h3>
+                            <p class="card__subtext">1 cup</p>
+                        </div>
+                        <div>
+                            <p class="card__price">$3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a class="button__link" href="./pages/menu.html"><div class="button__border"></div>VIEW ALL</a>
+            </div>
+        </section>
+        <!--Section: Discount-->
+        <section>
+            <div class="discount__container">
+                <div class="discount__info">
+                    <h2>We're Different</h2>
+                    <p>We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
+                    <div class="discount__flex">
+                        <img class="discount__icon" src="./assets/logos/planting.svg" alt="planting">
+                        <img class="discount__icon" src="./assets/logos/coffee-beans.svg" alt="coffee-beans">
+                        <img class="discount__icon" src="./assets/logos/coffee-cup.svg" alt="coffee-cup">
+                    </div>
+                    <a class="button__link" href="./index.html"><div class="button__border"></div>LEARN MORE</a>
+                </div>
+                <div class="discount__img">
+                    <img src="./assets/images/tiltedcan.png" alt="tiltedcan">
+                    <div class="discount__border"></div>
+                </div>
+            </div>
+            <div class="discount__banner">
+                <p class="discount-text">Get 20% off your first order with code: <span class="discount-code">FirstNitro</span></p>
+            </div>
+            </section>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-card">
+            <h3>Address</h3>
+            <p>503 Broadway Penthouse<br>
+            New York</p>
+        </div>
+        <div class="footer-card">
+            <h3>Hours</h3>
+            <p><span class="days-open">Monday - Friday:</span> 9am - 7pm<br>
+            <span class="days-open">Saturday - Sunday:</span> 10am - 5pm</p>
+        </div>
+        <div class="footer-card">
+            <h3>Social</h3>
+            <img class="icon-small" src="./assets/logos/Facebook-Icon.svg" alt="facebook" href="https://facebook.com">
+            <img class="icon-small" src="./assets/logos/Yelp-Icon.svg" alt="yelp" href="https://yelp.com">
+            <img class="icon-small" src="./assets/logos/Instagram-Icon.svg" alt="instagram" href="https://instagram.com">
+        </div>
+    </footer>
+</body>
+</html>

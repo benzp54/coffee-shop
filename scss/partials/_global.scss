@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin: 0;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+h3 {
+    font-size: 33px;
+    font-weight: 300;
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+    /*Remove Bullets from Lists*/
+ul {
+    list-style-type: none;
+}
+
+/*Class Modifiers*/
+.nav__primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff0ed;
+    padding: 0 20px;
+}
+.nav__logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav__icon {
+    min-width: 50px;
+    max-width: 120px;
+}
+.nav__container {
+    font-size: 33px;
+    font-weight: 300;
+    display: inline-block;
+}
+.nav__list {
+    display: inline-block;
+    padding-left: 20px;
+}
+.nav__item {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+.nav__link {
+    font-size: 21px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+.nav__link--highlight {
+    color:#5BACC3
+}

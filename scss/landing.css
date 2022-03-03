@@ -1,0 +1,218 @@
+@use './partials/global' as *;
+/*Tag Modifiers*/
+h3 {
+  padding-left: 20px;
+  margin: 0;
+}
+
+/* Class modifiers*/
+.coffee-cover {
+  min-width: 100%;
+  max-width: 100%;
+  background-color: #fff0ed;
+  padding-bottom: 40px;
+}
+
+.coffee-container {
+  display: inline-block;
+  width: 35%;
+  vertical-align: middle;
+  padding: 20px;
+  margin: 0 120px 0 60px;
+}
+
+.coffee-image {
+  display: inline-block;
+  text-align: right;
+}
+
+.coffeebag-large {
+  min-height: 240px;
+  max-height: 550px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.button__link {
+  display: inline-block;
+  position: relative;
+  min-width: 180px;
+  max-width: 80%;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 21px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  background-color: #5BACC3;
+  text-align: center;
+}
+
+.button__border {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #393939;
+  left: -5px;
+  top: -5px;
+}
+
+.product__section {
+  text-align: center;
+  background-color: #F7F7F7;
+  padding: 40px 0 60px 0;
+}
+
+.product__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 80px;
+}
+
+.product__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 330px;
+  max-width: 350px;
+  min-height: 440px;
+  max-height: 460px;
+  margin: 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+}
+
+.card__image {
+  min-height: 240px;
+  max-height: 550px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 20px;
+}
+
+.card__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff0ed;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.card__subtext {
+  text-align: left;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.card__price {
+  color: #5BACC3;
+  font-size: 33px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.discount__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 80px;
+}
+
+.discount__info {
+  width: 40%;
+}
+
+.discount__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.discount__icon {
+  width: 10%;
+  min-width: 50px;
+  max-width: 120px;
+}
+
+.discount__img {
+  position: relative;
+  background-image: url("../assets/images/coldbrewbackground.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+  min-width: 400px;
+  max-width: 500px;
+}
+
+.discount__border {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px solid #5BACC3;
+  width: 100%;
+  height: 100%;
+  left: -20px;
+  top: -20px;
+}
+
+.discount__banner {
+  color: white;
+  background-color: #393939;
+  max-width: 90%;
+  padding: 20px;
+  text-align: center;
+  margin: 160px auto;
+}
+
+.discount-text {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.discount-code {
+  font-weight: 700;
+}
+
+.footer-container {
+  background-color: #fff0ed;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.footer-card {
+  display: inline-block;
+  text-align: left;
+  margin: 0 40px;
+}
+
+.days-open {
+  font-weight: bold;
+}
+/*# sourceMappingURL=landing.css.map */
